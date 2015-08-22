@@ -829,7 +829,7 @@ Content-Type: text/html; charset=UTF-8
 
 EAR is a logic flaw that arises when a web application developer misunderstood the semantic  of redirection. The typical belief is that the web application will halt its processing after the web application perform a redirection. In this above example, the common misunderstanding is that the echo "Sensitive Information" will not be executed if the user is not an admin. So in some sense, this is a mismatch between the intention of the web developer and browser behavior. 
 
-This may not be true. Some framework and languages execute all the rest of the operation after the redirection operation. The browser simply perpetuates this understanding by simply obediently performing the redirection when it saw "header". To the web developer and also normal user, it seems like the following lines after the redirection is not executed. 
+This may not be true. Some framework and languages execute all the rest of the operation after the redirection operation. The browser simply perpetuates this misunderstanding by simply obediently performing the redirection when it saw "header". To the web developer and also normal user, it seems like the following lines after the redirection is not executed. 
 
 However, what if you have "something" that don't obey the redirect operation? 
 
