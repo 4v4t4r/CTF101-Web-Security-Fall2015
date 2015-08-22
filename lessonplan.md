@@ -587,7 +587,7 @@ d4ni3l - adminpassword
 Login in with either one of the username and password to get the flag 
 
 
-### Practical 3: Blind SQL Injection
+### Practical 2: Blind SQL Injection
 We now know what SQL Injection is, Blind SQL Injection is similar to a normal SQL Injection, the only difference is the way data is retrieved from the database.
 When the database does not output data to the web page, an attacker is forced to steal data by asking the database a series of true or false questions. This makes
 exploitation more difficult, but not impossible.
